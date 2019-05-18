@@ -1,0 +1,45 @@
+[
+    {
+        "section": "bullet",
+        "enemies": [
+            {
+                "type": "LargeEnemy",
+                "time": 0,
+                "dest": [10, -50],
+                "actions": [
+                    {"type": "Move", "time": 0, "duration": 2, "destX": 10, "destY": 40, "ease": "Out"},
+                    {"type": "Homing", "time": 1.5, "speed": 4, "bullet": "Circle"},
+                    {"type": "Homing", "time": 2, "speed": 4},
+                    {"type": "Homing", "time": 2.5, "speed": 4, "bullet": "Circle"},
+                    {"type": "Homing", "time": 3, "speed": 4},
+                    {"type": "Homing", "time": 3.5, "speed": 4, "bullet": "Circle"},
+                    {"type": "Homing", "time": 4, "speed": 4},
+                    {"type": "Homing", "time": 4.5, "speed": 4, "bullet": "Circle"},
+                    {"type": "Homing", "time": 5, "speed": 4},
+                    {"type": "Homing", "time": 5.5, "speed": 4, "bullet": "Circle"},
+                    {"type": "Homing", "time": 6, "speed": 4},
+                    {"type": "Move", "time": 7.5, "duration": 5, "destX": 150, "destY": 80, "ease": "In"},
+                    {"type": "Despawn", "time": 12.5}
+                ]
+            },
+            {
+                "type": "LargeEnemy",
+                "time": 4,
+                "dest": [50, -50],
+                "actions": [
+                    {"type": "Move", "time": 0, "duration": 1, "destX": 40, "destY": 30, "ease": "Out"},
+                    {
+                        "type": "Loop",
+                        "time": 1,
+                        "period": 3,
+                        "actions": [
+                            {"type": "Burst", "time": 1, "n": 15, "speed": 4, "rotate": 0},
+                            {"type": "Burst", "time": 2, "n": 15, "speed": 4, "rotate": 8},
+                            {"type": "Burst", "time": 3, "n": 15, "speed": 4, "rotate": 16}
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
