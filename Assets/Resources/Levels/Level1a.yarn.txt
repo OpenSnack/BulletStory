@@ -1,0 +1,10 @@
+title: Level1-Start
+---
+A: Testing, 1, 2!
+B: Who are you talking to?
+A: The player! Hi, player!
+-> Uh, hi?
+    A: Hiiiiiiiiiiiiiiiiiiii
+-> ...
+    B: I'm sure they responded.
+===

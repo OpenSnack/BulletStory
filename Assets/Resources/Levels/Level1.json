@@ -41,5 +41,9 @@
                 ]
             }
         ]
+    },
+    {
+        "section": "story",
+        "src": "Level1a.yarn.txt"
     }
 ]

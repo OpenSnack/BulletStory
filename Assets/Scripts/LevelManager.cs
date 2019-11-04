@@ -4,11 +4,13 @@ using System.IO;
 using UnityEngine;
 using SimpleJSON;
 using System.Linq;
+using Yarn.Unity;
 
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance = null;
     public TextAsset levelListingAsset;
+    public DialogueRunner dialogueRunner;
 
     private Dictionary<string, GameObject> allEnemies;
     private JSONNode levelListing;
