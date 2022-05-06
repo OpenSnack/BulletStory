@@ -99,7 +99,7 @@ public class LevelManager : MonoBehaviour
 
     public void Pause()
     {
-        if (sections.Peek() != null)
+        if (sections.Count() > 0)
         {
             sections.Peek().Pause();
         }
@@ -118,7 +118,7 @@ public class LevelManager : MonoBehaviour
 
     public void Unpause()
     {
-        if (sections.Peek() != null)
+        if (sections.Count() > 0)
         {
             sections.Peek().Unpause();
         }
@@ -143,7 +143,7 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (sections.Peek().IsCompleted())
+        if (sections.Count() > 0 && sections.Peek().IsCompleted())
         {
             sections.Dequeue();
             if (sections.Any())
@@ -153,6 +153,7 @@ public class LevelManager : MonoBehaviour
             else
             {
                 // level complete
+                Pause(); // or something
             }
         }
     }

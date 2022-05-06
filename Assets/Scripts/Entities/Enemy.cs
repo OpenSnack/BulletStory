@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour, IActionHolder
+public class Enemy : Entity, IActionHolder
 {
     public int health;
     private float time = 0f;
@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour, IActionHolder
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     public void SetContext(ActionContext ctx)
@@ -118,5 +118,20 @@ public class Enemy : MonoBehaviour, IActionHolder
     public void Unpause()
     {
         paused = false;
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        Debug.Log(collider.gameObject);
+        Entity entity = collider.gameObject.GetComponent<Entity>();
+        if (entity)
+        {
+            health -= entity.damage;
+            Destroy(collider.gameObject);
+            if (health <= 0)
+            {
+                Destroy(this.gameObject);
+            }
+        }
     }
 }

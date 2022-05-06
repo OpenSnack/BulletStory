@@ -1,21 +1,45 @@
 fileFormatVersion: 2
 guid: 3e9c36810cd3b3e439b1a6688ce2d3a6
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: LargeEnemy_0
-    21300002: LargeEnemy_1
-    21300004: LargeEnemy_2
-    21300006: LargeEnemy_3
-    21300008: LargeEnemy_4
-    21300010: LargeEnemy_5
-    21300012: LargeEnemy_6
-    21300014: LargeEnemy_7
-    21300016: LargeEnemy_8
-    21300018: LargeEnemy_9
-    21300020: LargeEnemy_10
-    21300022: LargeEnemy_11
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: LargeEnemy_0
+  - first:
+      213: 21300002
+    second: LargeEnemy_1
+  - first:
+      213: 21300004
+    second: LargeEnemy_2
+  - first:
+      213: 21300006
+    second: LargeEnemy_3
+  - first:
+      213: 21300008
+    second: LargeEnemy_4
+  - first:
+      213: 21300010
+    second: LargeEnemy_5
+  - first:
+      213: 21300012
+    second: LargeEnemy_6
+  - first:
+      213: 21300014
+    second: LargeEnemy_7
+  - first:
+      213: 21300016
+    second: LargeEnemy_8
+  - first:
+      213: 21300018
+    second: LargeEnemy_9
+  - first:
+      213: 21300020
+    second: LargeEnemy_10
+  - first:
+      213: 21300022
+    second: LargeEnemy_11
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -35,6 +59,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -44,8 +70,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -66,11 +92,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
     resizeAlgorithm: 1
@@ -81,7 +111,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 1024
     resizeAlgorithm: 1
@@ -92,7 +123,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 1024
     resizeAlgorithm: 1
@@ -103,6 +135,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -122,6 +155,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4076244889c898d4597eef36b4c63046
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -142,6 +176,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 14250196363b5d14c8de2d6d44b8276e
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -162,6 +197,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e7724db610a6a684895eae362f7be1b2
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -182,6 +218,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: db66ae28b1e4a9a42aa6a1e66f6937c2
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -202,6 +239,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fa4fd2545992690459d82f959b9ca09e
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -222,6 +260,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7e92beaac9de7a944ab2ad861334f7a8
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -242,6 +281,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 569e6083684f6194f9dcaf3a93c107d4
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -262,6 +302,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6d026591123b28245afd717f2b9c0047
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -282,6 +323,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2f57c57fa128c0c48a5683b044014359
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -302,6 +344,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 701f21cd02cfbf34d942a9fbae51e6db
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -322,6 +365,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 570e025cb32f5944aab1f473a2f3813c
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -342,6 +386,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 335de2c12fc803e48830e872cdd55fa7
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -350,10 +395,25 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: f9eee8cff2c19c64aaff0a0380787072
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LargeEnemy_0: 21300000
+      LargeEnemy_1: 21300002
+      LargeEnemy_9: 21300018
+      LargeEnemy_4: 21300008
+      LargeEnemy_3: 21300006
+      LargeEnemy_7: 21300014
+      LargeEnemy_11: 21300022
+      LargeEnemy_2: 21300004
+      LargeEnemy_6: 21300012
+      LargeEnemy_10: 21300020
+      LargeEnemy_5: 21300010
+      LargeEnemy_8: 21300016
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
